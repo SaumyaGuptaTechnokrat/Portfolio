@@ -76,6 +76,7 @@ height: 5vh;
     border-radius: 50%;
     overflow: hidden;
 }
+
 .profile-picture-container ,.profile-picture-container-about{
     width: 400px;
 height: 400px;
@@ -122,6 +123,11 @@ span{
 .contact{
     display: flex;
 }
+.contact a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .contact-form{
     width: 50%;
     position: relative;
@@ -154,4 +160,64 @@ span{
 }
 .prev, .nxt{
     background-color:  blue;
+}
+@media (max-width: 900px) {
+    .profile-picture-container ,.profile-picture-container-about{
+        width: 250px;
+        height: 250px;
+        box-shadow: orange;
+background: linear-gradient(to top, red, orange 100%);
+overflow: hidden;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+box-sizing: border-box;
+box-shadow: 20px 25px 50px yellow;
+    }
+    .inner-circle, .inner-circle-about{
+        width:230px;
+        height: 230px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .profile-picture-container{
+        position: relative;
+        left: 5%;
+    }
+    .section{
+        width: 1020px;
+    }
+}
+@media (min-width: 901px) and (max-width: 1380px) {
+    .profile-picture-container ,.profile-picture-container-about{
+        width: 350px;
+        height: 350px;
+        box-shadow: orange;
+background: linear-gradient(to top, red, orange 100%);
+overflow: hidden;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+box-sizing: border-box;
+box-shadow: 20px 25px 100px yellow;
+    }
+    .inner-circle, .inner-circle-about{
+        width:330px;
+        height: 330px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .profile-picture-container{
+        position: relative;
+        left: 5%;
+    }
+    .section{
+        width: 1380px;
+    }
 }
