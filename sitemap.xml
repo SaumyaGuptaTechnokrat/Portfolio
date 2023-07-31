@@ -3,35 +3,35 @@
 
     <!-- Home Page -->
     <url>
-        <loc></loc>
+        <loc>https://saumyaguptatechnokrat.github.io/P/</loc>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <!-- About Page -->
     <url>
-        <loc></loc>
+        <loc>https://saumyaguptatechnokrat.github.io/P/#aboutContent</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <!-- Services Page -->
     <url>
-        <loc>https://bestupay.com/#services-section</loc>
+        <loc>https://saumyaguptatechnokrat.github.io/P/#skills</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <!-- Projects Page -->
     <url>
-        <loc>https://bestupay.com/#projects-section</loc>
+        <loc>https://saumyaguptatechnokrat.github.io/P/#projectContent</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <!-- Contact Page -->
     <url>
-        <loc>https://bestupay.com/#contact-section</loc>
+        <loc>https://saumyaguptatechnokrat.github.io/P/#contactContent</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
