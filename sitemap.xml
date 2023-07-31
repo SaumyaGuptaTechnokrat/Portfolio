@@ -3,35 +3,35 @@
 
     <!-- Home Page -->
     <url>
-        <loc>https://saumyaguptatechnokrat.github.io/P/</loc>
+        <loc>https://saumyaguptatechnokrat.github.io/Portfolio/</loc>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <!-- About Page -->
     <url>
-        <loc>https://saumyaguptatechnokrat.github.io/P/#aboutContent</loc>
+        <loc>https://saumyaguptatechnokrat.github.io/Portfolio/#aboutContent</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <!-- Services Page -->
     <url>
-        <loc>https://saumyaguptatechnokrat.github.io/P/#skills</loc>
+        <loc>https://saumyaguptatechnokrat.github.io/Portfolio/#skills</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <!-- Projects Page -->
     <url>
-        <loc>https://saumyaguptatechnokrat.github.io/P/#projectContent</loc>
+        <loc>https://saumyaguptatechnokrat.github.io/Portfolio/#projectContent</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <!-- Contact Page -->
     <url>
-        <loc>https://saumyaguptatechnokrat.github.io/P/#contactContent</loc>
+        <loc>https://saumyaguptatechnokrat.github.io/Portfolio/#contactContent</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
