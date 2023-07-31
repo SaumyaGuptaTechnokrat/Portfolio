@@ -1,0 +1,157 @@
+ .navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 3rem;
+    transition: .3s;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    padding: 1rem;
+    z-index: 100;
+    justify-content: space-between;
+align-items: center;
+height: 5vh;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer{
+    position: relative;
+    bottom:0;
+    background-color: aqua;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section{
+    color: rgb(255, 255, 255);
+    background-color: #636363;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    padding: 200px 10% 0 ;
+    justify-content: space-between;
+}
+.home-content{
+    display: flex;
+
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    /* margin: 30px 15px 30px 0; */
+    color: #0ef;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    margin-right: 3rem ;
+}
+.home-sci a:hover{
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+    border: 1px #0ef solid;
+}
+.submit{
+    box-shadow: 20px 20px 200px blue;
+
+}
+.inner-circle, .inner-circle-about{
+    width:380px;
+    height: 380px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-picture-container ,.profile-picture-container-about{
+    width: 400px;
+height: 400px;
+box-shadow: orange;
+background: linear-gradient(to top, red, orange 100%);
+overflow: hidden;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+box-sizing: border-box;
+box-shadow: 20px 25px 300px yellow; /* The box-shadow property creates the shadow */
+
+}
+
+.profile-picture-container{
+    left: 35%;
+
+}
+.profile-picture{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+h3{
+    font-size: 32px;
+font-weight: 700;
+}
+span{
+    color: #0ef;
+}
+.about-content{
+    padding: 80px 0;
+    display: flex;
+    position: relative;
+    top: 1.2%;
+}
+.about{
+    position: relative;
+    left: 30%;
+}
+.contact{
+    display: flex;
+}
+.contact-form{
+    width: 50%;
+    position: relative;
+    left: 20%;
+}
+.home-sci{
+    display: flex;
+}
+.carousel-item .Calculator {
+    position: absolute;
+    right: 60%;   
+    display: block;
+    color: black;
+    /* z-index: 100; */
+}
+.carousel-item .sarkariclone{
+    position: absolute;
+    right: 60%;   
+    display: block;
+    color: black;
+}
+.contact{
+    padding: 5% 0;
+}
+.carousel-item .discord{
+    position: absolute;
+    right: 50%;   
+    display: block;
+    color: white;
+}
+.prev, .nxt{
+    background-color:  blue;
+}

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /private/
+Disallow: /secretpage.html
+Disallow: /subdirectory/secret-page/
+Disallow: /cgi-bin/
+Disallow: /tmp/

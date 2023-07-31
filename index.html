@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_bootstrap@5.2.3_dist_css_bootstrap.min.css">
+    <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- <div class="header">
+        <div class="nav">
+
+        </div>
+    </div> -->
+    <header class="header">
+        <a href="#">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#homeContent">Home</a>
+            <a href="#aboutContent">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projectContent">Projects</a>
+            <a href="#contactContent">Contact</a>
+
+        </nav>
+    </header>
+    <section data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="section scrollspy-example" tabindex="0">
+        <div class="home-content" id="homeContent">
+            <div>
+                <h3 >Hello Its Me</h3>
+                <h1 style="    font-size: 56px;
+                font-weight: 700;
+                margin: -3px 0;  ">Saumya Gupta</h1>
+
+                <h3>And I am <span id="text"></span></h3>
+                <p>technokrat graduate enthusiast in Web Development
+                    <br/>
+                    I have made many projects which are listed in the project section
+                </p>
+                <div class="home-sci">
+                    <a  target="_blank" href="https://www.linkedin.com/in/saumya-gupta01/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/SaumyaGuptaTechnokrat"><i class="fa-brands fa-github"></i></a>
+                    <a target="_blank" style="font-size: 10px;" href="https://app.netlify.com/teams/saumyaguptatechnokrat/overview">Netlify</a>    
+                </div>
+            </div>
+            <div class="profile-picture-container z-5">
+                <div class="inner-circle">
+                    <img src="images/ScannedPhotograph.jpg" class="profile-picture"/>
+
+                </div>
+            </div>
+       
+            <!-- <div class="home-sci">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+
+            </div> -->
+        </div>
+        <div id="aboutContent" class="about-content">
+            <div class="profile-picture-container-about z-5 ">
+                <div class="inner-circle-about">
+                    <img src="images/ScannedPhotograph.jpg" class="profile-picture"/>
+
+                </div>
+            </div>
+            <div class="about">
+                <h1>ABOUT ME:</h1>
+                Hello!! My Name is Saumya Gupta 
+                <br/>
+                I am technokrat engineering graduate with overall CGPA of 7.61 
+                <br/>
+                I have done B.Tech in Electrical Engineering 
+                <br/>
+                My Major Language is Java 
+                <br/>
+
+                <a href="documents/Saumya_Gupta_Resume.pdf" target="_blank"><button class="btn btn-primary btn-outline-info shadow-lg btn-outline-info text-white rounded-4">RESUME  <i class="fa-solid fa-file"></i></button></a>
+
+            </div>
+        </div>
+        <br/>
+        <div id="skills">
+            <h1>SKILLS</h1>
+            <ol>
+                <li>Java (Core and Advanced)</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React Js</li>
+                <li>MySql</li>
+                <li>Node Js</li>
+            </ol>
+        </div>
+        <div id="projectContent" class="project-content w-100 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <h1>PROJECTS:</h1>
+            <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                  <div class="carousel-item active " data-bs-interval="3000">
+                    <img src="images/discordclone.png" class="d-block w-100" alt="discordclone">
+
+                    <br/>
+                    <div class="carousel-caption d-none d-md-block discord z-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                        <h5>Discord Clone App</h5>
+                        <p>It is made using react Js</p>
+                        <a href="https://discordclone-frontend.netlify.app/" target="_blank"><button class="btn btn-primary btn-outline-info shadow-lg btn-outline-info text-white rounded-4">SEE PROJECT <i class="fa-regular fa-eye"></i></button></a>
+
+                      </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/Calculator.png" class="d-block w-100" alt="Calculator">
+                    <br/>
+                    <div class="carousel-caption d-none d-md-block Calculator z-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                        <h5>CALCULATOR</h5>
+                        <p>It is made using HTML, CSS, Js. It also consists unit conversion and simple Interest Calculator</p>
+                        <a href="https://saumyaguptatechnokrat.github.io/Calculator.github.io/" target="_blank"><button class="btn btn-primary btn-outline-info shadow-lg btn-outline-info text-white rounded-4">SEE PROJECT <i class="fa-regular fa-eye"></i></button></a>
+
+                      </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/SarkariResultClone.png" class="d-block w-100" alt="SarkariResultClone">
+                    <br/>
+                    <div class="carousel-caption d-none d-md-block sarkariclone z-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                        <h5>Sarkari Result Clone</h5>
+                        <p>It is made using HTML,CSS, Js</p>
+                        <a href="https://saumyaguptatechnokrat.github.io/Sarkari_Result_Clone/" target="_blank"><button class="btn btn-primary btn-outline-info shadow-lg btn-outline-info text-white rounded-4">SEE PROJECT <i class="fa-regular fa-eye"></i></button></a>
+
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon prev" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon nxt" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div id="contactContent" class="contact">
+            <div>
+                <h2>Contact Me:</h2>
+            <br/>
+            <h4>Lets Work Together</h4>
+            <br/>
+            <p>
+                Hello !!
+            </p>
+            </div>
+            <div class="contact-form">
+                <form class="row g-2" method="post">
+                 <input type="text" class="form-control" id="name" placeholder="Enter Your Name"/>
+                 <input type="email" class="form-control" id="email" placeholder="Enter Your email"/>
+                 <input type="text" class="form-control" id="subject" placeholder="Enter Your Subject"/>
+                 <textarea class="form-control" id="message" placeholder="Enter Your Message"></textarea>
+                 <button onclick="sendEmail(); reset(); return false;" class="btn btn-primary mb-3 shadow-lg p-3 mb-5 btn-outline-info text-white rounded-5 submit" >Submit</button>
+                </form>
+             </div>
+        </div>
+    
+    </section>
+    <!-- <footer class="footer">
+        Thank You for Visiting
+    </footer> -->
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_typed.js_2.0.12_typed.min.js"></script>
+   <script src="js/main.js"></script>
+    <script src="js/smtpjs.com_v3_smtp.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
