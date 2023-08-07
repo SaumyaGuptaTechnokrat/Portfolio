@@ -54,6 +54,7 @@ height: 5vh;
     /* margin: 30px 15px 30px 0; */
     color: #0ef;
     font-size: 20px;
+    text-decoration: none;
     width: 40px;
     height: 40px;
     border: 2px solid #0ef;
@@ -70,13 +71,31 @@ height: 5vh;
     box-shadow: 20px 20px 200px blue;
 
 }
-.inner-circle, .inner-circle-about{
+.inner-circle-about{
     width:380px;
     height: 380px;
     border-radius: 50%;
     overflow: hidden;
 }
 
+#box{
+    height:380px;
+    width: 380px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 1s;
+}
+#box:hover img{
+    scale: 1.2;
+}
+a{
+    text-decoration: none;
+}
 .profile-picture-container ,.profile-picture-container-about{
     width: 400px;
 height: 400px;
@@ -113,12 +132,12 @@ span{
 .about-content{
     padding: 80px 0;
     display: flex;
-    position: relative;
-    top: 1.2%;
+    width: 100% ;
 }
 .about{
-    position: relative;
-    left: 30%;
+    text-align: center;
+    width: 700vw;
+    font-size: x-large;
 }
 .contact{
     display: flex;
@@ -161,10 +180,10 @@ span{
 .prev, .nxt{
     background-color:  blue;
 }
-@media (max-width: 900px) {
+@media (min-width:350px) and (max-width:550px){
     .profile-picture-container ,.profile-picture-container-about{
-        width: 250px;
-        height: 250px;
+        width: 100px;
+        height: 100px;
         box-shadow: orange;
 background: linear-gradient(to top, red, orange 100%);
 overflow: hidden;
@@ -174,22 +193,45 @@ justify-content: center;
 align-items: center;
 position: relative;
 box-sizing: border-box;
-box-shadow: 20px 25px 50px yellow;
+box-shadow: 20px 25px 40px yellow;
     }
     .inner-circle, .inner-circle-about{
-        width:230px;
-        height: 230px;
+        width:80px;
+        height: 80px;
         border-radius: 50%;
         overflow: hidden;
     }
-    
+
+}
+/* @media (max-width: 767.98px) {
+    .profile-picture-container ,.profile-picture-container-about{
+        width: 100px;
+        height: 100px;
+        box-shadow: orange;
+background: linear-gradient(to top, red, orange 100%);
+overflow: hidden;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+box-sizing: border-box;
+box-shadow: 20px 25px 40px yellow;
+    }
+    .inner-circle, .inner-circle-about{
+        width:80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .section{
+        width: 767.98px;
+    }
     .profile-picture-container{
         position: relative;
         left: 5%;
     }
-    .section{
-        width: 1020px;
-    }
+
 }
 @media (min-width: 901px) and (max-width: 1380px) {
     .profile-picture-container ,.profile-picture-container-about{
@@ -217,7 +259,5 @@ box-shadow: 20px 25px 100px yellow;
         position: relative;
         left: 5%;
     }
-    .section{
-        width: 1380px;
-    }
-}
+  
+} */
