@@ -1,32 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-	<meta name="description" content="">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="robots" content="index, follow">
-	<meta name="author" content="https://saumyaguptatechnokrat.github.io/Portfolio/">
-	
-	
-	<meta property="og:title" content="Portfolio | Personal Portfolio | best Portfolio for freshers">
-	<meta property="og:description" content="Portfolio |  best Portfolio using HTML, CSS andd Js">
-	<meta property="og:image" content="https://saumyaguptatechnokrat.github.io/Portfolio/">
-	<meta property="og:url" content="https://saumyaguptatechnokrat.github.io/Portfolio/">
-
-
-	  <!-- Open Graph Meta Tags (for social media sharing) -->
-    <meta property="og:title" content="Your Page Title">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="URL to the image to be displayed when shared">
-    <meta property="og:url" content="https://saumyaguptatechnokrat.github.io/Portfolio/">
-	  
-	  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_bootstrap@5.2.3_dist_css_bootstrap.min.css">
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
 </head>
 <body>
     <!-- <div class="header">
@@ -65,7 +46,7 @@
                 </div>
             </div>
             <div class="profile-picture-container z-5">
-                <div class="inner-circle">
+                <div class="inner-circle" id="box">
                     <img src="images/ScannedPhotograph.jpg" class="profile-picture"/>
 
                 </div>
@@ -80,12 +61,6 @@
             </div> -->
         </div>
         <div id="aboutContent" class="about-content">
-            <div class="profile-picture-container-about z-5 ">
-                <div class="inner-circle-about">
-                    <img src="images/ScannedPhotograph.jpg" class="profile-picture"/>
-
-                </div>
-            </div>
             <div class="about">
                 <h1>ABOUT ME:</h1>
                 Hello!! My Name is Saumya Gupta 
@@ -114,8 +89,10 @@
                 <li>Node Js</li>
             </ol>
         </div>
+        <h1>PROJECTS:</h1>
+
         <div id="projectContent" class="project-content w-100 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-            <h1>PROJECTS:</h1>
+            <p>Project Snapshots:</p>
             <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner ">
                   <div class="carousel-item active " data-bs-interval="3000">
@@ -159,7 +136,38 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+              <h4><ul>PROJECT WEB VIEW:</ul></h4>
+              <h5>RUN LIVE PROJECT HERE:</h5>
+              <div id="carouselLiveExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active " data-bs-interval="5000">
+                        <iframe src="https://saumyaguptatechnokrat.github.io/Color-Generator/" style="height:100vh;width:77vw" title="Iframe Example"></iframe>
+    
+                      </div>
+                  <div class="carousel-item active " data-bs-interval="5000">
+                    <iframe src="https://discordclone-frontend.netlify.app/" style="height:100vh;width:77vw" title="Iframe Example"></iframe>
+
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <iframe src="https://saumyaguptatechnokrat.github.io/Calculator.github.io/" style="height:100vh;width:77vw" title="Iframe Example"></iframe>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <iframe src="https://saumyaguptatechnokrat.github.io/Sarkari_Result_Clone/" style="height:100vh;width:77vw ;background:white;" title="Iframe Example"></iframe>
+
+                  </div>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselLiveExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon prev" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselLiveExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon nxt" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
         </div>
+
         <div id="contactContent" class="contact">
             <div>
                 <h2>Contact Me:</h2>
@@ -168,9 +176,9 @@
             <br/>
             <p>
                 Hello !!
-		                <a href="tel:+916393575647"><button class="btn btn-primary btn-outline-info text-white rounded-4 shadow-lg bg-body-tertiary z-5">Contact Me <i class="fa-solid fa-phone"></i></button></a>
-
             </p>
+            <a href="tel:+916393575647"><button class="btn btn-primary btn-outline-info text-white rounded-4 shadow-lg bg-body-tertiary z-5">Contact Me <i class="fa-solid fa-phone"></i></button></a>
+            <a href="">Mail</a>
             </div>
             <div class="contact-form">
                 <form class="row g-2" method="post">
