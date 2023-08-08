@@ -206,8 +206,8 @@ box-shadow: 20px 25px 40px yellow;
     }
 
 }
-
-#myBtn {/*for top scrolling button*/
+/*for top scrolling button*/
+#myBtn {
     display: none;
     position: fixed;
     bottom: 20px;
