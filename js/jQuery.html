@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+.box {
+  width: 0px;
+  height: 2vh;
+  background-color: aqua;
+  transition: width 5s;
+   /* Define the properties to transition and the duration */
+}
+.box.loaded {
+  width: 300px;
+}
+
+.outer{
+    width: 500px; 
+    background-color: peachpuff;
+}
+    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+window.addEventListener('load', function() {
+  const box = document.querySelector('.box');
+  box.classList.add('loaded'); // Add the 'loaded' class to trigger the animation
+});
+
+</script>
+</head>
+<body>
+<!-- Change the below data attribute to play -->
+<div class="outer" >
+<div class="box">
+    
+</div>
+
+
+</div>
+<br/>
+<div class="outer">
+    <div  class="box">
+    
+    </div>
+</div>
+</body>
+</html>

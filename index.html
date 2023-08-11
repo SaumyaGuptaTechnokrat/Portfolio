@@ -26,7 +26,23 @@
     <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_bootstrap@5.2.3_dist_css_bootstrap.min.css">
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
 
+      $(".navbar a").mouseenter(function(){
+        $("i").removeClass("fa-flip");
+
+		    $("i").addClass("fa-bounce");
+	  });
+    $(".navbar a").mouseleave(function(){
+		    $("i").removeClass("fa-bounce");
+        $("i").addClass("fa-flip");
+
+	  });
+    });
+    
+    </script>
 </head>
 <body>
     <!-- <div class="header">
@@ -37,11 +53,11 @@
     <header class="header">
         <a href="#">Portfolio.</a>
         <nav class="navbar">
-            <a href="#homeContent" class="nav-link"><span><i id="icons" class="fa-solid fa-house "></i>Home</span></a>
-            <a href="#aboutContent"><span><i id="icons" class="fa-solid fa-circle-info fa-flip"></i>About</span></a>
-            <a href="#skills"><span><i id="icons" class="fa-solid fa-code "></i>Skills</span></a>
-            <a href="#projectContent"><span><i id="icons" class="fa-solid fa-gear "></i>Projects</span></a>
-            <a href="#contactContent"><span><i id="icons" class="fa-solid fa-address-book "></i>Contact</span></a>
+            <a href="#homeContent" id="a"  class="nav-link"><span><i id="icons"  class="fa-solid fa-house "></i>Home</span></a>
+            <a href="#aboutContent" id="a"><span><i id="icons" class="fa-solid fa-circle-info"></i>About</span></a>
+            <a href="#skills" id="a"><span><i id="icons" class="fa-solid fa-code "></i>Skills</span></a>
+            <a href="#projectContent" id="a"><span><i  id="icons" class="fa-solid fa-gear "></i>Projects</span></a>
+            <a href="#contactContent" id="a"><span><i id="icons" class="fa-solid fa-address-book "></i>Contact</span></a>
 
         </nav>
            <!-- <nav class="collapse navbar-collapse navbar" id="ftco-nav">
@@ -306,6 +322,7 @@
     <script src="js/cdnjs.cloudflare.com_ajax_libs_typed.js_2.0.12_typed.min.js"></script>
    <script src="js/main.js"></script>
     <script src="js/smtpjs.com_v3_smtp.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="js/form.js"></script>
 </body>
 </html>
