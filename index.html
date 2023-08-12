@@ -31,13 +31,13 @@
     $(document).ready(function(){
 
       $(".navbar a").mouseenter(function(){
-        $("i").removeClass("fa-flip");
+        $("#icons").removeClass("fa-flip");
 
-		    $("i").addClass("fa-bounce");
+		    $("#icons").addClass("fa-bounce");
 	  });
     $(".navbar a").mouseleave(function(){
-		    $("i").removeClass("fa-bounce");
-        $("i").addClass("fa-flip");
+		    $("#icons").removeClass("fa-bounce");
+        $("#icons").addClass("fa-flip");
 
 	  });
     });
