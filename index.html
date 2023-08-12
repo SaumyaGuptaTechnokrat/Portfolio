@@ -30,12 +30,12 @@
     <script>
     $(document).ready(function(){
 
-      $(".navbar a").mouseenter(function(){
+      $(".navbar a span i").mouseenter(function(){
 
-		    $(".navbar a span i").addClass("fa-bounce");
+		    $(this).addClass("fa-bounce");
 	  });
-    $(".navbar a").mouseleave(function(){
-		    $(".navbar a span i").removeClass("fa-bounce");
+    $(".navbar a span i").mouseleave(function(){
+		    $(this).removeClass("fa-bounce");
 
 	  });
     });
