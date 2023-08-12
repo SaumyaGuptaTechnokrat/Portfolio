@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <style>
-.box {
-  width: 0px;
-  height: 2vh;
-  background-color: aqua;
-  transition: width 5s;
-   /* Define the properties to transition and the duration */
-}
-.box.loaded {
-  width: 300px;
-}
+	<title>Bootstrap Progress Bar Animation Example</title>
 
-.outer{
-    width: 500px; 
-    background-color: peachpuff;
-}
-    </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script>
-window.addEventListener('load', function() {
-  const box = document.querySelector('.box');
-  box.classList.add('loaded'); // Add the 'loaded' class to trigger the animation
-});
-
-</script>
+	<!--Include Latest compiled and minified CSS -->
+	<link href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		rel="stylesheet" />
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+	</script>
+	<script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+	</script>
 </head>
+
 <body>
-<!-- Change the below data attribute to play -->
-<div class="outer" >
-<div class="box">
-    
-</div>
+	<br><br>
 
+	<!--Include bootstrap progress bar in div.
+		Also specify width as 0% using CSS -->
+	<div class="progress progress-striped active">
+		<div class="progress-bar progress-bar-success"
+			style="width: 0%">
+		</div>
+	</div>
+  <br/>
+  <div class="progress progress-striped active">
+		<div class="progress-bar progress-bar-success"
+			style="width: 0%">
+		</div>
+	</div>
+	<script>
 
-</div>
-<br/>
-<div class="outer">
-    <div  class="box">
-    
-    </div>
-</div>
+		// Set the width to animate the progress bar
+		// Along with time duration in milliseconds
+		$(".progress-bar").animate({
+				width: "70%",
+		}, 2500);
+	</script>
 </body>
+
 </html>
