@@ -188,7 +188,7 @@ span{
         width: 100px;
         height: 100px;
         box-shadow: orange;
-background: linear-gradient(to top, red, orange 100%);
+background: linear-gradient(to top, aqua, black 100%);
 overflow: hidden;
 border-radius: 50%;
 display: flex;
