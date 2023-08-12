@@ -187,7 +187,7 @@ span{
     .profile-picture-container ,.profile-picture-container-about{
         width: 100px;
         height: 100px;
-        box-shadow: orange;
+        box-shadow: aqua;
 background: linear-gradient(to top, aqua, black 100%);
 overflow: hidden;
 border-radius: 50%;
