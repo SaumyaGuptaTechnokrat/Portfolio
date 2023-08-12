@@ -30,14 +30,14 @@
     <script>
     $(document).ready(function(){
 
-      $(".navbar a").mouseenter(function(){
-        $("#icons").removeClass("fa-flip");
+      $(".navbar a span i").mouseenter(function(){
+        $(this).removeClass("fa-flip");
 
-		    $("#icons").addClass("fa-bounce");
+		    $(this).addClass("fa-bounce");
 	  });
     $(".navbar a").mouseleave(function(){
-		    $("#icons").removeClass("fa-bounce");
-        $("#icons").addClass("fa-flip");
+		    $(this).removeClass("fa-bounce");
+        $(this).addClass("fa-flip");
 
 	  });
     });
