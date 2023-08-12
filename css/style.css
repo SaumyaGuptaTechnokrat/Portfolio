@@ -102,8 +102,7 @@ a{
 .profile-picture-container ,.profile-picture-container-about{
     width: 400px;
 height: 400px;
-box-shadow: orange;
-background: linear-gradient(to top, aqua, black 100%);
+background: linear-gradient(to top, aqua, rgb(44, 53, 220) 100%);
 overflow: hidden;
 border-radius: 50%;
 display: flex;
@@ -111,7 +110,7 @@ justify-content: center;
 align-items: center;
 position: relative;
 box-sizing: border-box;
-box-shadow: 20px 25px 300px yellow; /* The box-shadow property creates the shadow */
+box-shadow: 20px 25px 300px aqua; /* The box-shadow property creates the shadow */
 
 }
 
