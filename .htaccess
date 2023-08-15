@@ -1,5 +1,21 @@
-<IfModule mod_expires.c> 
+<IfModule mod_headers.c> 
+ # Set cache expiration time for images, videos, and audio files
+    <FilesMatch "\.(jpg|jpeg|png|gif|ico|svg|mp4|webm|ogg|wav)$">
+        Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
 
+    # Set cache expiration time for CSS and JavaScript files
+    <FilesMatch "\.(css|js)$">
+        Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
+
+    # Set cache expiration time for fonts
+    <FilesMatch "\.(eot|ttf|otf|woff|woff2)$">
+        Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
+
+</IfModule>
+<IfModule mod_expires.c>
     ExpiresActive on
     ExpiresDefault                                      "access plus 1 month"
 
@@ -47,4 +63,7 @@
     ExpiresByType application/x-font-ttf                "access plus 1 month"
     ExpiresByType font/opentype                         "access plus 1 month"
     ExpiresByType image/svg+xml                         "access plus 1 month"
+</IfModule>
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
 </IfModule>
