@@ -113,7 +113,7 @@
         <div class="container">
             <div id="clickSkillsTab">
               <h1>SKILLS</h1>
-              <ol>
+              <!-- <ol>
                   <li><div>Java (Core and Advanced)</div>
                     <div class="progress w-50" role="progressbar" aria-label="Basic example" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                       <div class="progress-bar" style="width: 40%;"></div>
@@ -166,7 +166,27 @@
                           <div class="progress-bar" style="width: 30%;"></div>
                     </div>
                   </li>
-              </ol>
+              </ol> -->
+              <div class="progress-container">
+                <div>
+                  HTML
+                </div>
+                <div class="progress-bar" style="width: 65%;">
+                  <div class="progress-fill" style="width: 0;"></div>
+                </div>
+                <div>
+                  CSS
+                </div>
+                <div class="progress-bar" style="width: 65%;">
+                  <div class="progress-fill" style="width: 0;"></div>
+                </div>
+                <div>
+                  Js
+                </div>
+                <div class="progress-bar" style="width: 35%;" role="progressbar" aria-label="Basic example" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-fill" style="width: 0;"></div>
+                </div>
+              </div>
             </div>
         </div>
         <div class="container">
@@ -260,30 +280,33 @@
 
           </div>
         </div>
-        <div class="container">
-          <div id="clickContactTab" class="contact">
-            <div>
-                <h2>Contact Me:</h2>
-            <br/>
-            <h3>Lets Work Together</h3>
-            <br/>
-            <p>
-                Hello !!
-            </p>
-            <a aria-label="phonenumber" href="tel:+916393575647"><i class="fa-solid fa-phone" ></i></button></a>
-            <a aria-label="mailid" href="mailto:saumya4765@gmail.com"><i class="fa-solid fa-envelope fa-xl"></i></a>
-            </div>
+        <div class="container" id="clickContactTab">
+         
             <div class="contact-form">
+              <div>
+                <h2>Contact Me:</h2>
+            <h3>Lets Work Together</h3>
                 <form class="row g-2" method="post">
-                 <input type="text" class="form-control" id="name" placeholder="Enter Your Name"/>
-                 <input type="email" class="form-control" id="email" placeholder="Enter Your email"/>
-                 <input type="text" class="form-control" id="subject" placeholder="Enter Your Subject"/>
-                 <textarea class="form-control" id="message" placeholder="Enter Your Message"></textarea>
+                 <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required/>
+                 <input type="email" class="form-control" id="email" placeholder="Enter Your email" required/>
+                 <input type="text" class="form-control" id="subject" placeholder="Enter Your Subject" required/>
+
+                 <input type="text" class="form-control" id="email" placeholder="Enter Your company name" required/>
+                 <input type="text" class="form-control" id="email" placeholder="Enter Role For which you are hiring" required/>
+
+                 <textarea class="form-control" id="message" placeholder="Enter Your Message" rows="4" required></textarea>
                  <button onclick="sendEmail(); reset(); return false;" class="btn btn-primary mb-3 shadow-lg p-3 mb-5 btn-outline-info text-white rounded-5 submit" >Submit</button>
                 </form>
              </div>
         </div>
-
+        <div  class="contact">
+            
+          <p>
+              Hello !!
+          </p>
+          <a aria-label="phonenumber" href="tel:+916393575647"><i class="fa-solid fa-phone" ></i></button></a>
+          <a aria-label="mailid" href="mailto:saumya4765@gmail.com"><i class="fa-solid fa-envelope fa-xl"></i></a>
+          </div>
         </div>
 
     </section>

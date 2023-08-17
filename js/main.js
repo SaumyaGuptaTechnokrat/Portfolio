@@ -22,4 +22,22 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+function animateProgressBar() {
+  const progressBars = document.querySelectorAll('.progress-bar');
+  progressBars.forEach(bar => {
+    const fill = bar.querySelector('.progress-fill');
+    const width = parseInt(bar.style.width);
+    let currentWidth = 0;
+    const interval = setInterval(() => {
+      if (currentWidth >= width) {
+        clearInterval(interval);
+      } else {
+        currentWidth++;
+        fill.style.width = `${currentWidth}%`;
+      }
+    }, 10);
+  });
+}
 
+// Call the animation function on scroll
+window.onscroll = animateProgressBar;
