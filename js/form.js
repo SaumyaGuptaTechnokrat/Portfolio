@@ -9,7 +9,12 @@ function sendEmail(){
         Subject : document.getElementById("subject").value,
         Body : "Name:" + document.getElementById("name").value + "<br/>"+
         "Email:" + document.getElementById("email").value+"<br/>"+
+        
         "Subject:" +document.getElementById("subject").value+"<br/>"+
+        "Comany Name:" +document.getElementById("companyname").value+"<br/>"+
+        "Role for which I am hired:" +document.getElementById("roleforhiring").value+"<br/>"+
+
+        
         "Message:"+document.getElementById("message").value
     }).then(
     message => alert(message)
