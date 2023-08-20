@@ -316,7 +316,7 @@ button{
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .contact-form textarea {
@@ -337,4 +337,3 @@ button{
 .contact-form button:hover {
     background-color: #0056b3;
 }
-
