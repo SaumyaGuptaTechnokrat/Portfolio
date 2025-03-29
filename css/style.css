@@ -138,7 +138,7 @@ span{
 }
 .card{
     background: transparent !important;
-    color: aqua;
+    color: #e9c46a;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -154,7 +154,7 @@ span{
 
 .about-content{
     padding: 80px 0;
-    color: aqua;
+    color: #e9c46a;
     display: flex;
     width: 100% ;
 }
@@ -348,4 +348,5 @@ button{
 .social-media-icons a{
     margin:2vh;
     cursor:pointer;
+    color:#e9c46a;
 }
