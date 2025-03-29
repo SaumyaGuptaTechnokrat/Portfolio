@@ -33,7 +33,7 @@ height: 10vh;
     transition: .3s;
 }
 .section{
-    color: #2a9d8f;
+    color: white;
     background-color: #264653;
     background-size: cover;
     display: grid;
