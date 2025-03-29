@@ -148,13 +148,13 @@ span{
     scale: 1.1;
 }
 .card-header{
-    background-color: #333 !important;
+    background-color: #2a9d8f !important;
     z-index: 1;
 }
 
 .about-content{
     padding: 80px 0;
-    color: #e9c46a;
+    color: #83c5be;
     display: flex;
     width: 100% ;
 }
