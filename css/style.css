@@ -3,6 +3,7 @@
 }
 body{
     place-content: center;
+    overflow-x:hidden;
 }
 .header{
     display: flex;
@@ -175,6 +176,8 @@ span{
     justify-content:center;
     align-items:center;
     place-content:center;
+    background-color:#2a9d8f;
+    width:50%;
 }
 .contact{
     padding: 5% 0;
@@ -210,6 +213,7 @@ span{
 }
 iframe{
     width: 100% !important;
+    border-radius:0.7vh solid #2a9d8f;
 }
 .prev, .nxt{
     background-color:  blue;
