@@ -339,5 +339,10 @@ button{
 }
 .social-media-icons{
     display:flex;
-    justify-content:space-around;
+    flex-direction:row;
+    justify-content:center;
+    text-align:center;
+}
+.social-media-icons a{
+    margin:2vh;
 }
