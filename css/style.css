@@ -337,3 +337,7 @@ button{
 .contact-form button:hover {
     background-color: #0056b3;
 }
+.social-media-icons{
+    display:flex;
+    justify-content:space-around;
+}
