@@ -48,6 +48,10 @@ height: 10vh;
  .section .container{
     padding-top: 10%;
 } 
+.container{
+    display:flex;
+    flex-direction:column;
+}
 .home-content{
     padding-top: 10%;
     display: flex;
@@ -350,6 +354,7 @@ button{
     align-items:center;
         background-color:#2a9d8f;
     width:50%;
+    border-radius: 0.7vh solid #f4a261;
 }
 .social-media-icons a{
     margin:2vh;
