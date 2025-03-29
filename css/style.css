@@ -342,7 +342,10 @@ button{
     flex-direction:row;
     justify-content:center;
     text-align:center;
+    place-content:center;
+    align-items:center;
 }
 .social-media-icons a{
     margin:2vh;
+    cursor:pointer;
 }
