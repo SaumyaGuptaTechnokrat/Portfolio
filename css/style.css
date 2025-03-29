@@ -176,8 +176,6 @@ span{
     justify-content:center;
     align-items:center;
     place-content:center;
-    background-color:#2a9d8f;
-    width:50%;
 }
 .contact{
     padding: 5% 0;
@@ -350,6 +348,8 @@ button{
     text-align:center;
     place-content:center;
     align-items:center;
+        background-color:#2a9d8f;
+    width:50%;
 }
 .social-media-icons a{
     margin:2vh;
