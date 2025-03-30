@@ -51,6 +51,7 @@ height: 10vh;
 .container{
     display:flex;
     flex-direction:column;
+    justify-content:space-around;
 }
 .home-content{
     padding-top: 5%;
@@ -125,7 +126,7 @@ box-shadow: 20px 25px 300px aqua; /* The box-shadow property creates the shadow 
 }
 
 .profile-picture-container{
-    left: 25%;
+    left: 10%;
 
 }
 .profile-picture{
@@ -160,7 +161,7 @@ span{
 
 .about-content{
     padding: 80px 0;
-    color: #83c5be;
+    color: white;
     display: flex;
     width: 100% ;
 }
@@ -172,7 +173,7 @@ span{
 .about{
     text-align: center;
     width: 700vw;
-    font-size: x-large;
+/*     font-size: x-large; */
 }
 .contact{
     display: flex;
