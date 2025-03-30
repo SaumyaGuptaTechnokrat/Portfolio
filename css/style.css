@@ -41,19 +41,19 @@ height: 10vh;
     grid-row-gap: 150px;
     width: 100%;
     align-items: center;
-     padding: 100px 10% 0 ; 
+     padding: 10vh 10% 0 ; 
     justify-content: center;
     align-content: space-between;
 }
  .section .container{
-    padding-top: 10%;
+    padding-top: 5%;
 } 
 .container{
     display:flex;
     flex-direction:column;
 }
 .home-content{
-    padding-top: 10%;
+    padding-top: 5%;
     display: flex;
 }
 a{
