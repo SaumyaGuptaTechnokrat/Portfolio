@@ -173,7 +173,7 @@ span{
 .about{
     text-align: center;
     width: 700vw;
-/*     font-size: x-large; */
+    font-size: large;
 }
 .contact{
     display: flex;
